@@ -14,7 +14,7 @@ async function page() {
 
   return (
     <div className="p-12 flex flex-col gap-4">
-      <h1 className="text-gray-700 text-xl font-semibold">Blogbuilder á la Eriksson</h1>
+      <h1 className="text-gray-700 text-xl font-semibold">Developed by Johannes Eriksson</h1>
       <Users />
       <CreateButton user={session.user}/>
       <Posts user={session.user}/>
